@@ -1,0 +1,128 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  background: #f1f1f1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header {
+  padding: 15px;
+  background: #fff;
+}
+nav .title h1 {
+  background: #fff;
+  color: #010101;
+  font-weight: 700;
+  font-size: 30px;
+}
+.title span {
+  background: #fff;
+  color: #6f42c1;
+}
+header .title i {
+  background: #fff;
+  color: #010101;
+  font-size: 30px;
+  padding: 5px;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 4px;
+}
+.title {
+  background: #fff;
+  display: flex;
+}
+nav {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ol {
+  background: #fff;
+  display: flex;
+  list-style-type: none;
+}
+li a {
+  background: #fff;
+  font-size: large;
+  text-decoration: none;
+  color: #010101;
+  padding: 7px;
+}
+li a:hover {
+  opacity: 0.8;
+}
+/* search */
+.search-info {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-info .search {
+  padding-bottom: 5px;
+  width: 100%;
+  display: flex;
+}
+.search-info .search input {
+  width: 80%;
+  padding: 8px;
+  font-size: 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+.search-info .search button {
+  width: 20%;
+  padding: 8px;
+  background: #6f42c1;
+  color: #fff;
+  font-size: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.search-info i {
+  background: #6f42c1;
+}
+/* title */
+main .title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  text-align: center;
+  margin-top: 20px;
+}
+/* items */
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 7px;
+  text-align: center;
+}
+.items .item {
+  padding-top: 20px;
+  flex: 22%;
+}
+/* back */
+.back {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.back button {
+  padding: 7px;
+  background: #fff;
+}
+.back button a {
+  text-decoration: none;
+  color: #6f42c1;
+  background: #fff;
+}
+.back button:hover {
+  opacity: 0.9;
+}
